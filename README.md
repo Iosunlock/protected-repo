@@ -14,6 +14,7 @@ main handle
 * add a @evil-handle as collaborator
 
 evil handle
+* re-sign in as @evil-handle in desktop
 * clone the repo
 * make some commits to `master`
 * push
