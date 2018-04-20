@@ -4,6 +4,7 @@ A repo to:
   * document the steps required to :point_up:
 
 ## steps
+_assume steps not listed explicitly are things **not** to do (where it makes sense :man_shrugging:)_
 * create a repo
 * protect `master`
   * require pr reviews
