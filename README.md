@@ -15,7 +15,7 @@ _assume steps not listed explicitly are things **not** to do (where it makes sen
 
 ### evil handle - performed in desktop
 * re-sign in as @iamnotwillshepherd
-  * update git information (remember to reset to `iAmWillShepherd` and `iamwillshepherd@github.com`)
+  * update git information from `iAmWillShepherd` and `iamwillshepherd@github.com` :arrow_right:: `iAmNotWillShepherd` and `iAmNotWillShepherd@github.com` (remember to change back)
   
 _noticed that git information didn't automatically update as I was documenting :point_up: (is this a bug?)_
 
