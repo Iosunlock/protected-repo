@@ -9,7 +9,7 @@ _assume steps not listed explicitly are things **not** to do (where it makes sen
 * protect `master`
   * require pr reviews
   * require signed commits
-* add a collaborator
-* clone the repo (as collab)
+* add a @iamnotwillshepherd as collaborator
+* clone the repo (as evilwill)
 * make some commits to `master`
 * push
