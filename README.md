@@ -31,6 +31,11 @@ desktop should preempt this
 
 ![2018-04-19_23-42-51 994](https://github.com/iAmWillShepherd/protected-repo/blob/master/2018-04-19_23-42-51.994.png)
 
-The reason why this failed is in the error message, but it's not presented in a user friendly way. In the case of :point_up:, the publish button should have been disabled. We can get these permissions from the [repository endpoint](https://developer.github.com/v3/repos/#response), so it should be possible to prevent this state from occuring. 
+The reason why this failed is in the error message, but it's not presented in a user friendly way. In the case of :point_up:, the publish button should have been disabled. We can get these permissions from the [repositories endpoint](https://developer.github.com/v3/repos/#response), so it should be possible to prevent this state from occuring. 
 
 Interestingly, this repo requires signed commits and I did not sign the commits made by my evil-handle, yet that was not the reason why the push failed. Shouldn't unsigned commits take precedence?
+
+## maintainers problems
+this is a related issue
+
+maintainers should be able to push to their contributors' prs since we can get this info from the `maintainer_can_modify` property returned from the [pull requests endpoint](https://developer.github.com/v3/pulls/#response-1). If we store this data, desktop could allow this.
