@@ -5,7 +5,8 @@ A repo to:
   * list the problems we should fix over in `desktop/desktop`
   * serve as draft issue
 
-# We should provide a friendlier experience when collaborating with others on a single repository
+# draft issue
+**We should provide a friendlier experience when collaborating with others on a single repository**
 ![2018-04-19_23-42-51 994](https://github.com/iAmWillShepherd/protected-repo/blob/master/2018-04-19_23-42-51.994.png)
 
 the reason why this failed is in the error message, but it's not presented in a user friendly way. In the case of :point_up:, the publish button should have been disabled. We can get these permissions from the [repositories endpoint](https://developer.github.com/v3/repos/#response), so it should be possible to prevent this state from occuring. 
