@@ -16,7 +16,7 @@ main handle - performed on dotcom
 evil handle - performed in desktop
 * re-sign in as @iamnotwillshepherd
   * update git information (remember to reset to `iAmWillShepherd` and `iamwillshepherd@github.com`)
-_noticed that git information didn't automatically update as I was documenting :point_up: (is this a bug?) _
+_noticed that git information didn't automatically update as I was documenting :point_up: (is this a bug?)_
 * clone the repo
 * make some commits to `master`
 * push
