@@ -5,11 +5,15 @@ A repo to:
 
 ## steps
 _assume steps not listed explicitly are things **not** to do (where it makes sense :man_shrugging:)_
+
+main handle
 * create a repo
 * protect `master`
   * require pr reviews
   * require signed commits
-* add a @iamnotwillshepherd as collaborator
-* clone the repo (as evilwill)
+* add a @evil-handle as collaborator
+
+evil handle
+* clone the repo
 * make some commits to `master`
 * push
